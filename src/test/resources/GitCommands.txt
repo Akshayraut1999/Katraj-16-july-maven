@@ -1,0 +1,80 @@
+github username - Akshayraut1999
+github Email  - akshay7057865045@gmail.com
+
+
+$ git config --global user.name "Akshayraut1999"
+$ git config -- global user.email "akshay7057865045@gmail.com"
+$ git config --list
+
+* git init 
+-used to create a new git repo
+
+* Commit - Changes 
+1) Add commit - [Change Made- not final (Change ready for commit)]
+2) commit - [Final]
+
+* clone (Duplicate copy)- We can easily get project from github by http url "https://github.com/Akshayraut1999/Programs.git"
+--> git clone "https://github.com/Akshayraut1999/Programs.git"
+
+* git status - It Shows if there is changes made in particular file Other wise showing up to date
+--> git status
+
+* git add . - Add all changes
+--> git add .
+
+* commit - it is the record of change
+--> git commit -m "Message"
+
+* push Command- - to upload local changes to github 
+  origin - change name, main - changes in main branch
+--> git push origin main
+
+Github Repo=>clone=>changes=>check Status=>add=>commit=>push
+=======================================================================
+
+Git Branches
+
+* git branch - check current branch
+git branch
+
+* git branch -M main (To rename branch)
+
+* git checkout <-branch name->  (to navigate new branch)
+
+* git checkout -b <-new branch name-> (to create new branch)
+
+* git branch -d <-branch name-> (to delete branch)
+
+==================================================================
+
+Merging Code
+
+way1
+
+* git diff <-branch name-> (to compare commits, branches, files & more)
+
+* git merge <-branch name-> (to merge two branches)
+
+way2
+create pull request(pr) - It lets you tell others about changes you've pushed to a branch in a repositary on github
+
+senior devloper review changes 
+
+==========================
+
+Pull command - Get all git hub changes in our local
+
+main - branch name
+
+* git pull origin main
+
+====================
+
+Resolving Merge conflicts
+
+
+
+
+
+
+
